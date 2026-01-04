@@ -1,0 +1,32 @@
+{
+  "version": "0.1.5",
+  "description": "A lightweight task runner for defining and executing shell commands with a clean, readable syntax.",
+  "homepage": "https://github.com/nihilok/devrun",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/nihilok/devrun/releases/download/v0.1.5/devrun-x86_64-pc-windows-msvc.zip",
+      "hash": "4e055a1ea8ea3b4cb29e671069bce46f418360bd4d4cd9c65c6afc4dd5ef6802"
+    }
+  },
+  "bin": "run.exe",
+  "checkver": {
+    "github": "https://github.com/nihilok/devrun"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/nihilok/devrun/releases/download/v$version/devrun-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  },
+  "post_install": [
+    "Write-Host 'devrun installed successfully!' -ForegroundColor Green",
+    "Write-Host ''",
+    "Write-Host 'To enable tab completions, run:' -ForegroundColor Yellow",
+    "Write-Host '  run --install-completion' -ForegroundColor Cyan",
+    "Write-Host ''",
+    "Write-Host 'Create a Runfile in your project root or ~\\.runfile for global commands.' -ForegroundColor Yellow",
+    "Write-Host 'Visit https://github.com/nihilok/devrun for documentation.' -ForegroundColor Yellow"
+  ]
+}
