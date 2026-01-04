@@ -1,12 +1,12 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A lightweight task runner for defining and executing shell commands with a clean, readable syntax.",
   "homepage": "https://github.com/nihilok/devrun",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/nihilok/devrun/releases/download/v0.1.5/devrun-x86_64-pc-windows-msvc.zip",
-      "hash": "4e055a1ea8ea3b4cb29e671069bce46f418360bd4d4cd9c65c6afc4dd5ef6802"
+      "url": "https://github.com/nihilok/devrun/releases/download/v$version/devrun-x86_64-pc-windows-msvc.zip",
+      "hash": "3c1e7ef5fbb13722b055d5b1d236b9e533af63fbf9c676dd34263c791df2a2af"
     }
   },
   "bin": "run.exe",
