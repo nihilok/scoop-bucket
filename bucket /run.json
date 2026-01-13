@@ -1,32 +1,32 @@
 {
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "A lightweight task runner for defining and executing shell commands with a clean, readable syntax.",
-  "homepage": "https://github.com/nihilok/devrun",
+  "homepage": "https://github.com/nihilok/run",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/nihilok/devrun/releases/download/v$version/devrun-x86_64-pc-windows-msvc.zip",
-      "hash": "25f953413095380dd46f08e68217b1cba87d6d88733c51e670759ec316443b01"
+      "url": "https://github.com/nihilok/run/releases/download/v$version/run-x86_64-pc-windows-msvc.zip",
+      "hash": "d0255fc4606ae2caca197a895be0c27b06058315db7eb70959908bbc23036f12"
     }
   },
   "bin": "run.exe",
   "checkver": {
-    "github": "https://github.com/nihilok/devrun"
+    "github": "https://github.com/nihilok/run"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/nihilok/devrun/releases/download/v$version/devrun-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/nihilok/devrun/releases/download/v$version/run-x86_64-pc-windows-msvc.zip"
       }
     }
   },
   "post_install": [
-    "Write-Host 'devrun installed successfully!' -ForegroundColor Green",
+    "Write-Host 'run installed successfully!' -ForegroundColor Green",
     "Write-Host ''",
     "Write-Host 'To enable tab completions, run:' -ForegroundColor Yellow",
     "Write-Host '  run --install-completion' -ForegroundColor Cyan",
     "Write-Host ''",
     "Write-Host 'Create a Runfile in your project root or ~\\.runfile for global commands.' -ForegroundColor Yellow",
-    "Write-Host 'Visit https://github.com/nihilok/devrun for documentation.' -ForegroundColor Yellow"
+    "Write-Host 'Visit https://github.com/nihilok/run for documentation.' -ForegroundColor Yellow"
   ]
 }
