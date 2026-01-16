@@ -1,12 +1,12 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A lightweight task runner for defining and executing shell commands with a clean, readable syntax.",
   "homepage": "https://github.com/nihilok/run",
   "license": "MIT",
   "architecture": {
     "64bit": {
       "url": "https://github.com/nihilok/run/releases/download/v$version/run-x86_64-pc-windows-msvc.zip",
-      "hash": "f4b05f3fc1147a51132ebeca0b9554083054e63ad711dbf14c62ca7299d16d97"
+      "hash": "335122cf6209e95d3b833f1e878fd76d161612cd697659c2d0b84ee130a2f320"
     }
   },
   "bin": "run.exe",
