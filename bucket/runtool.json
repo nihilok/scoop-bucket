@@ -1,12 +1,12 @@
 {
-  "version": "0.3.10",
+  "version": "0.3.11",
   "description": "a.k.a. runtool: the bridge between human and AI tooling",
   "homepage": "https://github.com/nihilok/run",
   "license": "MIT",
   "architecture": {
     "64bit": {
       "url": "https://github.com/nihilok/run/releases/download/v$version/run-x86_64-pc-windows-msvc.zip",
-      "hash": "30b67c734ad1f14101d41dc0c46d36b5b0f9a40d936d4b0d61667737a91bd1fa"
+      "hash": "550aa8441351e9d43c3483a2d1dc87bf68fb95cfaa86bb0e28f87799b61ddeb2"
     }
   },
   "bin": "run.exe",
