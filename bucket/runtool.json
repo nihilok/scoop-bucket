@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/nihilok/run/releases/download/v$version/run-x86_64-pc-windows-msvc.zip",
-      "hash": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      "hash": "32d7e0ead844282134916f8e738aa2a83859b4644aed2ae6741a6f262778a1ce"
     }
   },
   "bin": "run.exe",
